@@ -1,6 +1,6 @@
 ---
 - name: Playbook for rebooting the RPis
-  hosts: picluster
+  hosts: purencool_cluster
   gather_facts: no
   tasks:
     - name: 'Reboot RPi'
